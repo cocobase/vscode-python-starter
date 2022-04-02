@@ -1,0 +1,14 @@
+{
+    // VSCODE 用户个人的个性化需求配置
+    "editor.fontSize": 18,
+    "python.envFile": "${workspaceFolder}/dev.env",
+    "python.testing.unittestEnabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./mytests",
+        "-p",
+        "*_test.py"
+    ],
+    "python.testing.pytestEnabled": false
+}
